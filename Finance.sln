@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Api", "Finance.Api\Finance.Api.csproj", "{89A23ED8-0904-4C80-9730-0ACADA300D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Core", "Finance.Core\Finance.Core.csproj", "{9B2BFABA-D2E6-4CEC-A285-E06B815F94E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Web", "Finance.Web\Finance.Web.csproj", "{C5C0E933-B78A-4A28-8F6A-21BF01675FED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A23ED8-0904-4C80-9730-0ACADA300D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A23ED8-0904-4C80-9730-0ACADA300D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A23ED8-0904-4C80-9730-0ACADA300D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A23ED8-0904-4C80-9730-0ACADA300D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2BFABA-D2E6-4CEC-A285-E06B815F94E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2BFABA-D2E6-4CEC-A285-E06B815F94E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2BFABA-D2E6-4CEC-A285-E06B815F94E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2BFABA-D2E6-4CEC-A285-E06B815F94E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C0E933-B78A-4A28-8F6A-21BF01675FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C0E933-B78A-4A28-8F6A-21BF01675FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C0E933-B78A-4A28-8F6A-21BF01675FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C0E933-B78A-4A28-8F6A-21BF01675FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
