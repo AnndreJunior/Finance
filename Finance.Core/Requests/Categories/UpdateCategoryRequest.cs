@@ -4,6 +4,8 @@ namespace Finance.Core.Requests.Categories;
 
 public class UpdateCategoryRequest : Request
 {
+    public long Id { get; set; }
+
     [Required]
     [MaxLength(80)]
     public string Title { get; set; } = string.Empty;
