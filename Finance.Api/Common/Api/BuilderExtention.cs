@@ -39,7 +39,7 @@ public static class BuilderExtention
                 Configuration.BackedUrl,
                 Configuration.FrontendUrl
             ])
-            .AllowAnyHeader()
+            .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials()
         ));
